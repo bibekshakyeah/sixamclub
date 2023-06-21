@@ -7,6 +7,12 @@
       "jhipster-needle-menu-add-element": "JHipster will add additional menu entries here (do not translate!)",
       "entities": {
         "main": "Entities",
+        "contentType": "Content Type",
+        "category": "Category",
+        "content": "Content",
+        "oceanModel": "Ocean Model",
+        "oceanFacet": "Ocean Facet",
+        "contentMedia": "Content Media",
         "jhipster-needle-menu-add-entry": "JHipster will add additional entities here (do not translate!)"
       },
       "account": {

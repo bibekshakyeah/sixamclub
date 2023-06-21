@@ -1,0 +1,32 @@
+{
+  "applications": "*",
+  "changelogDate": "20230621070951",
+  "dto": "mapstruct",
+  "embedded": false,
+  "entityTableName": "ocean_facet",
+  "fields": [
+    {
+      "fieldName": "name",
+      "fieldType": "String",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "value",
+      "fieldType": "Double",
+      "fieldValidateRules": ["required"]
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "OceanFacet",
+  "pagination": "pagination",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityName": "oceanModel",
+      "relationshipName": "oceanModel",
+      "relationshipType": "many-to-one"
+    }
+  ],
+  "service": "serviceImpl"
+}

@@ -1,0 +1,26 @@
+{
+  "sixamclubApp": {
+    "oceanFacet": {
+      "home": {
+        "title": "Ocean Facets",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Ocean Facet",
+        "createOrEditLabel": "Create or edit a Ocean Facet",
+        "notFound": "No Ocean Facets found"
+      },
+      "created": "A new Ocean Facet is created with identifier {{ param }}",
+      "updated": "A Ocean Facet is updated with identifier {{ param }}",
+      "deleted": "A Ocean Facet is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Ocean Facet {{ id }}?"
+      },
+      "detail": {
+        "title": "Ocean Facet"
+      },
+      "id": "ID",
+      "name": "Name",
+      "value": "Value",
+      "oceanModel": "Ocean Model"
+    }
+  }
+}

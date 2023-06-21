@@ -1,0 +1,21 @@
+{
+  "applications": "*",
+  "changelogDate": "20230621070947",
+  "dto": "mapstruct",
+  "embedded": false,
+  "entityTableName": "content_type",
+  "fields": [
+    {
+      "fieldName": "name",
+      "fieldType": "String",
+      "fieldValidateRules": ["required", "unique"]
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "ContentType",
+  "pagination": "pagination",
+  "readOnly": false,
+  "relationships": [],
+  "service": "serviceImpl"
+}

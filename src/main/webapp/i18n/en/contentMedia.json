@@ -1,0 +1,26 @@
+{
+  "sixamclubApp": {
+    "contentMedia": {
+      "home": {
+        "title": "Content Medias",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Content Media",
+        "createOrEditLabel": "Create or edit a Content Media",
+        "notFound": "No Content Medias found"
+      },
+      "created": "A new Content Media is created with identifier {{ param }}",
+      "updated": "A Content Media is updated with identifier {{ param }}",
+      "deleted": "A Content Media is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Content Media {{ id }}?"
+      },
+      "detail": {
+        "title": "Content Media"
+      },
+      "id": "ID",
+      "path": "Path",
+      "type": "Type",
+      "content": "Content"
+    }
+  }
+}

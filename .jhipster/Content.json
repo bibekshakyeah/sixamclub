@@ -1,0 +1,56 @@
+{
+  "applications": "*",
+  "changelogDate": "20230621070949",
+  "dto": "mapstruct",
+  "embedded": false,
+  "entityTableName": "content",
+  "fields": [
+    {
+      "fieldName": "title",
+      "fieldType": "String",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "sourceUrl",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "videoUrl",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "contentText",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "publishedDate",
+      "fieldType": "ZonedDateTime"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "Content",
+  "pagination": "pagination",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityName": "contentMedia",
+      "otherEntityRelationshipName": "content",
+      "relationshipName": "contentMedias",
+      "relationshipType": "one-to-many"
+    },
+    {
+      "otherEntityName": "contentType",
+      "relationshipName": "contentType",
+      "relationshipType": "many-to-one"
+    },
+    {
+      "otherEntityName": "category",
+      "otherEntityRelationshipName": "contents",
+      "ownerSide": true,
+      "relationshipName": "categories",
+      "relationshipType": "many-to-many"
+    }
+  ],
+  "service": "serviceImpl"
+}

@@ -1,0 +1,31 @@
+{
+  "sixamclubApp": {
+    "content": {
+      "home": {
+        "title": "Contents",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Content",
+        "createOrEditLabel": "Create or edit a Content",
+        "notFound": "No Contents found"
+      },
+      "created": "A new Content is created with identifier {{ param }}",
+      "updated": "A Content is updated with identifier {{ param }}",
+      "deleted": "A Content is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Content {{ id }}?"
+      },
+      "detail": {
+        "title": "Content"
+      },
+      "id": "ID",
+      "title": "Title",
+      "sourceUrl": "Source Url",
+      "videoUrl": "Video Url",
+      "contentText": "Content Text",
+      "publishedDate": "Published Date",
+      "contentMedias": "Content Medias",
+      "contentType": "Content Type",
+      "categories": "Categories"
+    }
+  }
+}

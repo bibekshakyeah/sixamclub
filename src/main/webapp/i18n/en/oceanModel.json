@@ -1,0 +1,24 @@
+{
+  "sixamclubApp": {
+    "oceanModel": {
+      "home": {
+        "title": "Ocean Models",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Ocean Model",
+        "createOrEditLabel": "Create or edit a Ocean Model",
+        "notFound": "No Ocean Models found"
+      },
+      "created": "A new Ocean Model is created with identifier {{ param }}",
+      "updated": "A Ocean Model is updated with identifier {{ param }}",
+      "deleted": "A Ocean Model is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Ocean Model {{ id }}?"
+      },
+      "detail": {
+        "title": "Ocean Model"
+      },
+      "id": "ID",
+      "name": "Name"
+    }
+  }
+}

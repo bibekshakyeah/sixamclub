@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<databaseChangeLog
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-latest.xsd">
+    <!--
+        Added the constraints for entity OceanFacet.
+    -->
+    <changeSet id="20230621070951-2" author="jhipster">
+
+        <addForeignKeyConstraint baseColumnNames="ocean_model_id"
+                                 baseTableName="ocean_facet"
+                                 constraintName="fk_ocean_facet__ocean_model_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="ocean_model"/>
+    </changeSet>
+</databaseChangeLog>

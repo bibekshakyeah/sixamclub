@@ -1,0 +1,51 @@
+entity ContentType {
+  name String required unique
+}
+
+entity Category {
+  name String required
+}
+
+entity Content {
+  title String required
+  sourceUrl String
+  videoUrl String
+  contentText String
+  publishedDate ZonedDateTime
+}
+
+entity ContentMedia {
+  path String required
+  type String required
+}
+
+entity OceanModel {
+  name String required
+}
+
+entity OceanFacet {
+  name String required
+  value Double required
+}
+
+relationship ManyToOne {
+  OceanFacet{oceanModel} to OceanModel
+}
+
+relationship ManyToMany {
+  Content{categories} to Category{contents}
+}
+
+relationship ManyToOne {
+  Content{contentType} to ContentType
+}
+
+relationship OneToMany {
+  Content{contentMedias} to ContentMedia{content}
+}
+
+paginate all with pagination
+
+dto * with mapstruct
+
+service all with serviceImpl

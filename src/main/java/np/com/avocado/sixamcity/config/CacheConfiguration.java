@@ -81,6 +81,15 @@ public class CacheConfiguration {
             createCache(cm, np.com.avocado.sixamcity.domain.User.class.getName(), jcacheConfiguration);
             createCache(cm, np.com.avocado.sixamcity.domain.Authority.class.getName(), jcacheConfiguration);
             createCache(cm, np.com.avocado.sixamcity.domain.User.class.getName() + ".authorities", jcacheConfiguration);
+            createCache(cm, np.com.avocado.sixamcity.domain.ContentType.class.getName(), jcacheConfiguration);
+            createCache(cm, np.com.avocado.sixamcity.domain.Category.class.getName(), jcacheConfiguration);
+            createCache(cm, np.com.avocado.sixamcity.domain.Category.class.getName() + ".contents", jcacheConfiguration);
+            createCache(cm, np.com.avocado.sixamcity.domain.Content.class.getName(), jcacheConfiguration);
+            createCache(cm, np.com.avocado.sixamcity.domain.Content.class.getName() + ".categories", jcacheConfiguration);
+            createCache(cm, np.com.avocado.sixamcity.domain.OceanModel.class.getName(), jcacheConfiguration);
+            createCache(cm, np.com.avocado.sixamcity.domain.OceanFacet.class.getName(), jcacheConfiguration);
+            createCache(cm, np.com.avocado.sixamcity.domain.Content.class.getName() + ".contentMedias", jcacheConfiguration);
+            createCache(cm, np.com.avocado.sixamcity.domain.ContentMedia.class.getName(), jcacheConfiguration);
             // jhipster-needle-redis-add-entry
         };
     }

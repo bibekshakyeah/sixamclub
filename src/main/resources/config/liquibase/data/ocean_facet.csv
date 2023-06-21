@@ -1,0 +1,101 @@
+id;name;value;ocean_model_id
+1;Warmth;82;1
+2;Gregariousness;76;1
+3;Assertiveness;68;1
+4;Activity;89;1
+5;Excitement-Seeking;72;1
+6;Positive Emotions;85;1
+7;Trust;78;2
+8;Straightforwardness;74;2
+9;Altruism;91;2
+10;Compliance;77;2
+11;Modesty;70;2
+12;Tender-Mindedness;83;2
+13;Competence;88;3
+14;Order;80;3
+15;Dutifulness;92;3
+16;Achievement Striving;90;3
+17;Self-Discipline;76;3
+18;Deliberation;84;3
+19;Anxiety;43;4
+20;Angry Hostility;39;4
+21;Depression;46;4
+22;Self-Consciousness;52;4
+23;Impulsiveness;41;4
+24;Vulnerability;49;4
+25;Fantasy;75;5
+26;Aesthetics;81;5
+27;Feelings;69;5
+28;Actions;93;5
+29;Ideas;82;5
+30;Values;79;5
+31;Warmth;87;1
+32;Gregariousness;74;1
+33;Assertiveness;69;1
+34;Activity;91;1
+35;Excitement-Seeking;78;1
+36;Positive Emotions;86;1
+37;Trust;76;2
+38;Straightforwardness;72;2
+39;Altruism;89;2
+40;Compliance;74;2
+41;Modesty;71;2
+42;Tender-Mindedness;82;2
+43;Competence;89;3
+44;Order;83;3
+45;Dutifulness;92;3
+46;Achievement Striving;91;3
+47;Self-Discipline;77;3
+48;Deliberation;86;3
+49;Anxiety;42;4
+50;Angry Hostility;38;4
+51;Depression;47;4
+52;Self-Consciousness;54;4
+53;Impulsiveness;43;4
+54;Vulnerability;50;4
+55;Fantasy;78;5
+56;Aesthetics;82;5
+57;Feelings;68;5
+58;Actions;94;5
+59;Ideas;83;5
+60;Values;81;5
+61;Warmth;85;1
+62;Gregariousness;77;1
+63;Assertiveness;70;1
+64;Activity;88;1
+65;Excitement-Seeking;76;1
+66;Positive Emotions;84;1
+67;Trust;79;2
+68;Straightforwardness;75;2
+69;Altruism;90;2
+70;Compliance;75;2
+71;Modesty;72;2
+72;Tender-Mindedness;81;2
+73;Competence;87;3
+74;Order;81;3
+75;Dutifulness;93;3
+76;Achievement Striving;89;3
+77;Self-Discipline;75;3
+78;Deliberation;85;3
+79;Anxiety;45;4
+80;Angry Hostility;40;4
+81;Depression;48;4
+82;Self-Consciousness;53;4
+83;Impulsiveness;42;4
+84;Vulnerability;51;4
+85;Fantasy;76;5
+86;Aesthetics;80;5
+87;Feelings;67;5
+88;Actions;92;5
+89;Ideas;80;5
+90;Values;77;5
+91;Warmth;88;1
+92;Gregariousness;75;1
+93;Assertiveness;71;1
+94;Activity;90;1
+95;Excitement-Seeking;80;1
+96;Positive Emotions;83;1
+97;Trust;80;2
+98;Straightforwardness;73;2
+99;Altruism;87;2
+100;Compliance;76;2
